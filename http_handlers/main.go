@@ -5,6 +5,9 @@ import (
 	_ "net/http/pprof"
 )
 
+/*
+Notes: You can open the webpage on http://localhost:6060/debug/pprof
+*/
 func main() {
 
 	// Start profiling server in a separate goroutine so it does not block
